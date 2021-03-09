@@ -1,18 +1,18 @@
 .title {
-    color: #F6E9A6;
-    padding-bottom: 20px;
-    text-align: center;
-  }
-  .text {
-    color: #F6E9A6;
-  }
-  .btn {
-    display: block;
-    width: 150px;
-    padding: 8px 0;
-    margin: 20px auto;
-    background: #2C334C;
-    border-radius: 4px;
-    color: #F6E9A6;
-    text-align: center;
-  }
+  color: #F6E9A6;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.text {
+  color: #F6E9A6;
+}
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #2C334C;
+  border-radius: 4px;
+  color: #F6E9A6;
+  text-align: center;
+}
