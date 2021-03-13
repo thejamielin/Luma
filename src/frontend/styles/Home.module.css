@@ -3,9 +3,11 @@
   padding-bottom: 20px;
   text-align: center;
 }
+
 .text {
   color: #F6E9A6;
 }
+
 .btn {
   display: block;
   width: 150px;
@@ -15,4 +17,12 @@
   border-radius: 4px;
   color: #F6E9A6;
   text-align: center;
+}
+
+.tab {
+  padding-left: 30%;
+}
+
+.tabSelected {
+  background-color: #232A48;
 }

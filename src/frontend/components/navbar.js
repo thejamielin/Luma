@@ -16,17 +16,16 @@ const Navbar = () => {
                 <input 
                 className="searchBar"
                 placeholder="Search here..."/>
-                
             </div>
             <a> 
                 <Link href="/about">About Luma</Link>
                 <Link href="/connections">
-                <Image src="/LUMA_Connections.png" width={52} height={52}/>
+                    <Image src="/LUMA_Connections.png" width={52} height={52}/>
                 </Link>
                 <Link href="/test">API Test Page</Link>           
-            <Link href="/profile">
-                <Image src="/LUMA_Profile.png" width={47} height={51}/>
-            </Link>
+                <Link href="/profile">
+                    <Image src="/LUMA_Profile.png" width={47} height={51}/>
+                </Link>
             </a>
         </nav>
      );

@@ -20,16 +20,16 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  border-bottom: 1px solid #ddd;
 }
 nav a {
-  margin-left: 20px;
+  float: right;
+  text-align: center;
+  padding: 10px;
 }
 nav .logo {
-  margin-right: auto;
+  margin-right: 15px;
+  margin-left: 5px;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
 }
 footer {
   display: block;
@@ -53,10 +53,11 @@ footer {
   padding: 8px;
   border-radius: 30px;
   border: none;
-  width: 1000px;
+  width: 975px;
   height: 20px;
   font-size: 18px;
   text-align: flex-end;
   background-color: #3A4466;
   font-family: "Nunito";
+  margin-bottom: 20px;
 }
