@@ -22,7 +22,6 @@ const Navbar = () => {
                 <Link href="/connections">
                     <Image src="/LUMA_Connections.png" width={52} height={52}/>
                 </Link>
-                <Link href="/test">API Test Page</Link>           
                 <Link href="/profile">
                     <Image src="/LUMA_Profile.png" width={47} height={51}/>
                 </Link>
