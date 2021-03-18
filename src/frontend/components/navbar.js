@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav>
             <div className="logo">
                 <Link href="/">
-                    <a><Image src="/logo.png" width={101.45} height={46.85}/></a>
+                    <a><Image src="/logo.png" width={78} height={35}/></a>
                 </Link>
             </div>
             <div>
@@ -18,12 +18,14 @@ const Navbar = () => {
                 placeholder="Search here..."/>
             </div>
             <a> 
-                <Link href="/about">About Luma</Link>
                 <Link href="/connections">
-                    <Image src="/LUMA_Connections.png" width={52} height={52}/>
+                    <Image src="/connect.png" width={41} height={35}/>
                 </Link>
                 <Link href="/profile">
-                    <Image src="/LUMA_Profile.png" width={47} height={51}/>
+                    <Image src="/account.png" width={23} height={35}/>
+                </Link>
+                <Link href="/settings">
+                    <Image src="/settings.png" width={37} height={35}/>
                 </Link>
             </a>
         </nav>
