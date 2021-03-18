@@ -22,6 +22,7 @@ export default function Home() {
           <Tab>Producers</Tab>
           <Tab>Writers</Tab>
         </TabList>
+
         {/* Musicians */}
         <TabPanel>
           <h2>

@@ -21,15 +21,18 @@
 
 .tab {
   margin-left: 30%;
-  margin-top: 10px;
 }
 
 .tabList {
   background-color: green;
-  margin-top: 10px;
+  margin: 0px;
   padding-left: 0px;
+  padding-top: 0px;
+  border-top-left-radius: 8px;
+  font-weight: 500;
 }
 
 .tabSelected {
-  background-color: #232A48;
+  background-color: #232A48 !important;
+  border-top-right-radius: 25px;
 }
