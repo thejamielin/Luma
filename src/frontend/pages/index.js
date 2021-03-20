@@ -16,7 +16,8 @@ export default function Home() {
       <Tabs 
       className={styles.tab}
       selectedTabClassName={styles.tabSelected}>
-        <TabList>
+        <TabList
+        className={styles.tabList}>
           <Tab>Musicians</Tab>
           <Tab>Producers</Tab>
           <Tab>Writers</Tab>
