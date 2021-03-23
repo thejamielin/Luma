@@ -39,10 +39,12 @@ nav {
   background-color: #181C2A;
   padding: 10px;
   overflow: auto;
+  margin-bottom: 10px;
 }
 
 .leftel{
   float: left;
+  display: flex;
 }
 
 .rightel{
