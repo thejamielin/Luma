@@ -28,7 +28,7 @@
 }
 
 .pfp {
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .category {
@@ -38,3 +38,4 @@
     padding: 3px;
     text-align: center;
 }
+

@@ -19,10 +19,16 @@ export default function Home() {
          {/* Add wave button here*/}
 
          <h3 className={styles.category}> biography </h3>
+         <p className={styles.sidebartext}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 
          <h3 className={styles.category}> experience </h3>
+         <p className={styles.sidebartext}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 
          <h3 className={styles.category}> contact information </h3>
+         <p className={styles.sidebartext}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
       </div>
     </>
   );
