@@ -22,19 +22,19 @@ const Navbar = () => {
             <a>
                 <Boop scale={1.1} timing={200}>
                 <Link href="/connections">
-                    <Image src="/connect.png" width={41} height={35}/>
+                    <Image src="/connect.png" width={41} height={35} title="connections page"/>
                 </Link>
                 </Boop>
                 &emsp;
                 <Boop y= {-5} timing={200}>
                 <Link href="/profile">
-                    <Image src="/account.png" width={23} height={35}/>
+                    <Image src="/account.png" width={23} height={35} title="account page"/>
                 </Link>
                 </Boop>
                 &emsp;
                 <Boop rotation={25} timing={200}>
                 <Link href="/login">
-                    <Image src="/login.png" width={36} height={35}/>
+                    <Image src="/login.png" width={36} height={35} title="go to login"/>
                 </Link>
                 </Boop>
             </a>
