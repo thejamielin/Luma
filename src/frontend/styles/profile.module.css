@@ -18,7 +18,7 @@
 .biodrop {
     background-color: #2c334c;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 108px 108px 20px 20px;
     left: 50px;
     top: 90px;
     width: 200px;
