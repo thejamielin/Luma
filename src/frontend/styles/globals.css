@@ -38,6 +38,7 @@ footer {
 nav {
   background-color: #181C2A;
   padding: 10px;
+  height: 35px;
   overflow: auto;
 }
 
