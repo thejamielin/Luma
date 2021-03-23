@@ -171,6 +171,7 @@ padding: 0px 0;
 .topnav {
 overflow: hidden;
 background-color: #181C2A;
+text-align: center;
 }
 
 .topnav a {
@@ -194,7 +195,7 @@ font-size: 60px;
     line-height:60px;
     padding:10px 40px;
     color:white;
-    margin: 20px 0px;
+    margin: 20px 20px;
     position:relative;
     border-radius: 40px;
 }
