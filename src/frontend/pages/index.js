@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import Link from "next/link";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import homeData from '../components/homeData';
 // Tabs courtesy of: https://github.com/reactjs/react-tabs
 
 export default function Home() {
@@ -18,10 +19,14 @@ export default function Home() {
       selectedTabClassName={styles.tabSelected}>
         <TabList
         className={styles.tabList}>
-          <Tab>Musicians</Tab>
+          <Tab>
+            Musicians
+            <homeData />
+          </Tab>
           <Tab>Producers</Tab>
           <Tab>Writers</Tab>
         </TabList>
+
         {/* Musicians */}
         <TabPanel>
           <h2>
