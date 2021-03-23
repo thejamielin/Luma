@@ -3,6 +3,9 @@ import styles from "../styles/login.module.css";
 export default function Login() {
   return (
     <>
+    <div className={styles.topnav}>
+      <a class="active" href="/home"><b>Lum&lambda;</b></a>
+    </div>
       <div className={styles.splitscreen}>
           <div className={styles.shape1}>
               <div className={styles.left}>
@@ -70,3 +73,4 @@ export default function Login() {
     </>
   );
 }
+
