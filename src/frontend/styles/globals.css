@@ -6,30 +6,15 @@ body {
   font-family: "Nunito";
   margin: 0px;
 }
+
 a {
   color: #F6E9A6;
   text-decoration: none;
 }
+
 .content {
   width: 100%;
   margin: 0 auto;
-}
-nav {
-  background: #181C2A;
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-nav a {
-  float: right;
-  text-align: center;
-  padding: 10px;
-}
-nav .logo {
-  margin-right: 50px;
-  display: flex;
 }
 
 footer {
@@ -50,15 +35,29 @@ footer {
   text-decoration: underline;
 }
 
+nav {
+  background-color: #181C2A;
+  padding: 10px;
+  overflow: auto;
+}
+
+.leftel{
+  float: left;
+}
+
+.rightel{
+  float:right;
+}
+
 .searchBar {
-  padding: 8px;
+  margin-left: 10px;
+  padding: 7px;
   border-radius: 30px;
   border: none;
-  width: 800px;
+  width: 600px;
   height: 20px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: flex-end;
   background-color: #3A4466;
   font-family: "Nunito";
-  margin-bottom: 20px;
 }
