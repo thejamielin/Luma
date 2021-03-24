@@ -3,15 +3,24 @@ import styles from '../styles/Home.module.css';
 import Link from "next/link";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import Sidebar from '../components/sidebar';
+import React, { useState, useEffect} from 'react';
 // Tabs courtesy of: https://github.com/reactjs/react-tabs
 
 export default function Home() {
+  const [selectedCheckboxes, setSelectedCheckboxes] = useState(new Set());
+  const [genres, setGenres] = useState(['Classical', 'Pop', 'R&B']);
+  const [instruments, setInstruments] = useState(['Violin', 'Cello', 'Guitar', 'Bass', 'Drums']);
+
   return (
     <>
       <Head>
         <title>Luma | Home</title>
         <meta name="keywords" content="luma" />
       </Head>
+      <div className="container">
+      <Sidebar selectedCheckboxes = {selectedCheckboxes}
+            genres = {genres} instruments = {instruments}/>
       <div>
       <Tabs 
       className={styles.tab}
@@ -44,6 +53,7 @@ export default function Home() {
         <Link href="/about">
           <a className={styles.btn}>Who are we?</a>
         </Link>
+      </div>
       </div>
     </>
   );

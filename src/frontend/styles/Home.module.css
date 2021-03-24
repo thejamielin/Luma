@@ -1,11 +1,14 @@
+.container {
+  display: flex-start;
+}
 .title {
-  color: #F6E9A6;
+  color: #f6e9a6;
   padding-bottom: 20px;
   text-align: center;
 }
 
 .text {
-  color: #F6E9A6;
+  color: #f6e9a6;
 }
 
 .btn {
@@ -13,9 +16,9 @@
   width: 150px;
   padding: 8px 0;
   margin: 20px auto;
-  background: #2C334C;
+  background: #2c334c;
   border-radius: 4px;
-  color: #F6E9A6;
+  color: #f6e9a6;
   text-align: center;
 }
 
@@ -31,5 +34,10 @@
 }
 
 .tabSelected {
-  background-color: #232A48;
+  background-color: #232a48;
 }
+/*
+.sidebar {
+  background-color: #232a48;
+}
+*/

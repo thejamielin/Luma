@@ -1,48 +1,30 @@
-import React, { Component, PropTypes } from 'react';
+import React, { useState } from 'react';
+import styles from '../styles/Sidebar.module.css';
 import { render } from 'react-dom';
 
-class Checkbox extends Component {
-    state = {
-        isChecked: false,
-    }
+const Checkbox = ({label, handleCheckboxChange, labelKey}) => {
+    const [isChecked, setChecked] = useState(false);
 
-    // where is toggleCheckboxChange called
-    // what is handleCheckboxChange
-
-    toggleCheckboxChange = () => {
-        const { handleCheckboxChange, label } = this.props
-        // sets the handleCheckboxChange values
-        // and label values as props for this function
-
-        this.setState(({ isChecked }) => (
-            {
-                isChecked: !isChecked,
-            } // changes state to opposite state
-        ));
-
+    // changes isChecked state and selectedCheckboxes state (from parent)
+    const toggleCheckboxChange = () => {
+        setChecked(!isChecked);
         handleCheckboxChange(label); 
-        // passes in label as an argument to
-        // the handleCheckBoxChange function (toggleCheckbox)
     }
 
-    render() {
-        const { label } = this.props; // what specifically does this do
-        const { isChecked } = this.state;
+    return (
+        <div className={styles.checkbox}>
+            <label className= {styles.sideText}>
+                <input 
+                    type="checkbox"
+                    value={label}
+                    checked={isChecked}
+                    onChange={toggleCheckboxChange}
+                />
+                {label}
+            </label>
+        </div>
+    );
 
-        return (
-            <div className="checkbox">
-                <label>
-                    {label}
-                    <input 
-                        type="checkbox"
-                        value={label}
-                        checked={isChecked}
-                        onChange={this.toggleCheckboxChange}
-                    />
-                </label>
-            </div>
-        );
-    }
 }
 
 export default Checkbox;
