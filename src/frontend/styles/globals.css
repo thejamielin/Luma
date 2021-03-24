@@ -6,14 +6,17 @@ body {
   font-family: "Nunito";
   margin: 0px;
 }
+
 a {
   color: #f6e9a6;
   text-decoration: none;
 }
+
 .content {
   width: 100%;
   margin: 0 auto;
 }
+
 nav {
   background: #181c2a;
   margin: 0px;
@@ -27,6 +30,7 @@ nav a {
   text-align: center;
   padding: 10px;
 }
+
 nav .logo {
   margin-right: 50px;
   display: flex;
@@ -50,13 +54,30 @@ footer {
   text-decoration: underline;
 }
 
+nav {
+  background-color: #181c2a;
+  padding: 10px;
+  overflow: auto;
+}
+
+.leftel {
+  float: left;
+  display: flex;
+}
+
+.rightel {
+  float: right;
+}
+
 .searchBar {
-  padding: 8px;
+  margin-left: 10px;
+  padding: 7px;
   border-radius: 30px;
   border: none;
-  width: 1100px;
+  width: 600px;
   height: 20px;
-  font-size: 18px;
+  font-size: 16px;
+  color: #f6e9a6;
   text-align: flex-end;
   background-color: #3a4466;
   font-family: "Nunito";
@@ -66,12 +87,3 @@ footer {
 .main {
   display: flex;
 }
-/*
-.sidebar {
-  get margin top and bottom to stretch to container amount 
-  display: block;
-  background-color: #181c2a;
-  padding: 10px;
-  border: 1px solid #ddd;
-}
-*/

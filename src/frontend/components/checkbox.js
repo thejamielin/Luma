@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../styles/Sidebar.module.css';
+import styles from '../styles/Home.module.css';
 import { render } from 'react-dom';
 
 const Checkbox = ({label, handleCheckboxChange, labelKey}) => {

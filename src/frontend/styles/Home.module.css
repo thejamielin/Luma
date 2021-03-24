@@ -24,20 +24,88 @@
 
 .tab {
   margin-left: 30%;
-  margin-top: 10px;
 }
 
 .tabList {
   background-color: green;
-  margin-top: 10px;
+  margin: 0px;
   padding-left: 0px;
+  padding-top: 0px;
+  border-top-left-radius: 8px;
+  font-weight: 500;
 }
 
 .tabSelected {
   background-color: #232a48;
 }
-/*
 .sidebar {
-  background-color: #232a48;
+  background-color: #d43f3f;
+  height: auto;
+  display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
 }
-*/
+
+.menuBars {
+  margin-top: -3rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+.checkbox {
+  font-family: "Nunito";
+}
+
+.navMenu {
+  background-color: #060b26;
+  width: 250px;
+  height: 100vh;
+  display: block;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.navMenuActive {
+  background-color: #060b26;
+  width: 250px;
+  height: 100vh;
+  display: block;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 350ms;
+}
+
+.navbarToggle {
+  background-color: #060b26;
+  width: 100%;
+  height: fit-content;
+  display: block;
+  justify-content: start;
+  align-items: center;
+}
+
+.sideText {
+  color: #f6e9a6;
+  font-size: 18px;
+}
+
+.checkbox label.sideText:hover {
+  border-style: outset;
+}
+
+.head {
+  border: 1px solid #3a4466;
+  background-color: #3a4466;
+  border-radius: 5px;
+  border-width: medium;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  display: inline-block;
+}

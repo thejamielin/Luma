@@ -5,6 +5,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Sidebar from '../components/sidebar';
 import React, { useState, useEffect} from 'react';
+import homeData from '../components/homeData';
 // Tabs courtesy of: https://github.com/reactjs/react-tabs
 
 export default function Home() {
@@ -18,7 +19,6 @@ export default function Home() {
         <title>Luma | Home</title>
         <meta name="keywords" content="luma" />
       </Head>
-      <div className="container">
       <Sidebar selectedCheckboxes = {selectedCheckboxes}
             genres = {genres} instruments = {instruments}/>
       <div>
@@ -27,7 +27,10 @@ export default function Home() {
       selectedTabClassName={styles.tabSelected}>
         <TabList
         className={styles.tabList}>
-          <Tab>Musicians</Tab>
+          <Tab>
+            Musicians
+            <homeData />
+          </Tab>
           <Tab>Producers</Tab>
           <Tab>Writers</Tab>
         </TabList>
@@ -53,7 +56,6 @@ export default function Home() {
         <Link href="/about">
           <a className={styles.btn}>Who are we?</a>
         </Link>
-      </div>
       </div>
     </>
   );

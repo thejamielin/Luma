@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from '../styles/Sidebar.module.css';
+import styles from '../styles/Home.module.css';
 import Checkbox from './Checkbox';
 import Link from "next/link";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
