@@ -1,0 +1,219 @@
+/* SIGNUP/LOGIN HEADERS */
+.h1 {
+color:#F6E9A6;
+font-family: verdana;
+font-size: 360%;
+padding: 0%
+}
+
+/* SIGN IN WITH HEADERS */
+.h2 {
+color:#F6E9A6;
+font-family: verdana;
+font-size: 200%;
+padding: 0%
+}
+
+/* ROUNDED TEXT BOXES */
+.fname {
+border-radius: 24px;
+padding: 10px; 
+width: 480px;
+height: 40px;  
+background-color: #3A4466;
+color:#F6E9A6;
+font-family:verdana;
+font-size: 96%;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: hidden;
+margin-bottom: 16px;
+}
+.lname {
+border-radius: 24px;
+padding: 10px; 
+width: 480px;
+height: 40px; 
+background-color:#3A4466;
+color:#F6E9A6;
+font-family:verdana;
+font-size: 96%;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: hidden;
+margin-bottom: 16px;
+}
+.username {
+border-radius: 24px;
+padding: 10px; 
+width: 480px;
+height: 40px; 
+background-color:#3A4466;
+color:#F6E9A6;
+font-family:verdana;
+font-size: 96%;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: hidden;
+margin-bottom: 16px;
+}
+.email {
+border-radius: 24px;
+padding: 10px; 
+width: 480px;
+height: 40px;  
+background-color:#3A4466;
+color:#F6E9A6;
+font-family:verdana;
+font-size: 96%;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: hidden;
+margin-bottom: 16px;
+}
+.password {
+border-radius: 24px;
+padding: 10px; 
+width: 480px;
+height: 40px; 
+background-color:#3A4466;
+color:#F6E9A6;
+font-family:verdana;
+font-size: 96%;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: hidden;
+margin-bottom: 16px;
+}
+
+/* BUTTON SETTINGS */
+.signup {
+border-radius: 24px;
+padding: 8px; 
+width: 144px;
+height: 48px;  
+background-color: #595f71;
+color:#F6E9A6;
+font-family:verdana;
+font-size: 96%;
+text-align:center;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: hidden;
+}
+.login {
+border-radius: 24px;
+padding: 8px; 
+width: 136px;
+height: 48px;  
+background-color: #595f71;
+color:#F6E9A6;
+font-family:verdana;
+font-size: 96%;
+text-align:center;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: hidden;
+}
+
+/* STAY IN BUTTON */
+.stayinbutton {
+transform: scale(1.36);
+margin-left: 200px;
+}
+.body {
+text-align: center;
+margin-top: 80px;
+margin: 0;
+}
+.stayintext {
+color:#F6E9A6;
+margin-right: 160px;
+}
+        
+/* FORGOT PASSWORD */
+.forgotpass {
+color:#F6E9A6;
+font-family:verdana;
+font-size: 96%;
+}
+
+/* SIDE BY SIDE */
+.splitscreen {
+display:flex;
+font-size: 96%;
+
+}
+.splitscreen .left {
+flex: 1;
+}
+.splitscreen .right {
+flex: 1;
+}
+
+/* BODY SETTINGS */
+.body {
+background-color:#232A48;
+padding: 0px 0;
+}
+        
+/* TOP BAR SETTINGS */
+.topnav {
+overflow: hidden;
+background-color: #181C2A;
+text-align: center;
+}
+
+.topnav a {
+float: center;
+color: #97883C;
+text-align: center;
+padding: 50px 50px;
+text-decoration: none;
+font-size: 48px;
+}
+        
+/* BACKGROUND BLOCKS */
+/* SIGN UP BOX */
+.shape1{
+    text-align:center;
+    background:
+    linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat,
+    linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat;
+    width:570px;
+    height: 704px;
+    line-height:48px;
+    padding:10px 40px;
+    color:white;
+    margin: 20px 150px;
+    position:relative;
+    border-radius: 36px;
+}
+    /* LOGIN BOX */
+.shape2{
+    text-align:center;
+    background:
+    linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat,
+    linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat; 
+    width:570px;
+    height:704px;
+    line-height:48px;
+    padding:10px 40px;
+    color:white;
+    margin: 20px 20px;
+    position:relative;
+    border-radius: 36px;
+}
+
+/* PICTURE SETTINGS */
+.signinwithpics{
+    width: 81.6px;
+    height: 81.6px;
+}

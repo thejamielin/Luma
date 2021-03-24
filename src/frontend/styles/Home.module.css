@@ -1,18 +1,38 @@
 .title {
-    color: #F6E9A6;
-    padding-bottom: 20px;
-    text-align: center;
-  }
-  .text {
-    color: #F6E9A6;
-  }
-  .btn {
-    display: block;
-    width: 150px;
-    padding: 8px 0;
-    margin: 20px auto;
-    background: #2C334C;
-    border-radius: 4px;
-    color: #F6E9A6;
-    text-align: center;
-  }
+  color: #F6E9A6;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.text {
+  color: #F6E9A6;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #2C334C;
+  border-radius: 4px;
+  color: #F6E9A6;
+  text-align: center;
+}
+
+.tab {
+  margin-left: 30%;
+}
+
+.tabList {
+  background-color: green;
+  margin: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  border-top-left-radius: 8px;
+  font-weight: 500;
+}
+
+.tabSelected {
+  background-color: #232A48 !important;
+  border-top-right-radius: 25px;
+}
