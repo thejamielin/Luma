@@ -3,9 +3,10 @@ import styles from "../styles/login.module.css";
 export default function Login() {
   return (
     <>
-    <div className={styles.topnav}>
-      <a class="active" href="/home"><b>Lum&lambda;</b></a>
-    </div>
+    {/* actual login navbar below -- diferent bc login page shoudlnt have same navbar as other pages since not logged in yet but dont know how to change it lol */}
+    {/* <div className={styles.topnav}>
+      <a class="active" href="/"><b>Lum&lambda;</b></a>
+    </div> */}
       <div className={styles.splitscreen}>
           <div className={styles.shape1}>
               <div className={styles.left}>
