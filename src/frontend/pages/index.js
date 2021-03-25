@@ -5,14 +5,13 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Sidebar from '../components/sidebar';
 import React, { useState, useEffect} from 'react';
-import homeData from '../components/homeData';
 // Tabs courtesy of: https://github.com/reactjs/react-tabs
 
 export default function Home() {
   const [selectedCheckboxes, setSelectedCheckboxes] = useState(new Set());
-  const [genres, setGenres] = useState(['Classical', 'Pop', 'R&B']);
-  const [instruments, setInstruments] = useState(['Violin', 'Cello', 'Guitar', 'Bass', 'Drums']);
-
+  const [genres, setGenres] = useState(["pop", "classical", "jazz", "R & B", "indie", "EDM"])
+  const [instruments, setInstruments] = useState(["violin", "cello", "bass", "guitar", "piano", "voice", "flute", "clarinet"])
+  
   return (
     <>
       <Head>
@@ -22,6 +21,7 @@ export default function Home() {
       <Sidebar selectedCheckboxes = {selectedCheckboxes}
             genres = {genres} instruments = {instruments}/>
       <div>
+      <Sidebar selectedCheckboxes={selectedCheckboxes} genres={genres} instruments={instruments}/>
       <Tabs 
       className={styles.tab}
       selectedTabClassName={styles.tabSelected}>
