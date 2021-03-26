@@ -27,18 +27,17 @@ export default function Home({ posts }) {
 
           {/* Musicians */}
           <TabPanel>
-            <h2>Musician Content</h2>
             <InfiniteSpace />
           </TabPanel>
 
           {/* Producers  */}
           <TabPanel>
-            <h2>Producer Content</h2>
+            <InfiniteSpace />
           </TabPanel>
 
           {/* Writers */}
           <TabPanel>
-            <h2>Writer content</h2>
+            <InfiniteSpace />
           </TabPanel>
         </Tabs>
       </div>
