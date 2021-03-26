@@ -17,12 +17,83 @@ a {
   margin: 0 auto;
 }
 
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: #f6e9a6;
+  border-top: 1px solid #eaeaea;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.not-found a {
+  color: #4979ff;
+  text-decoration: underline;
+}
+
+/*
+
+nav {
+  background-color: #181c2a;
+  padding: 10px;
+  justify-content: center;
+  overflow: auto;
+}
+
+.leftel {
+  float: center;
+  display: flex;
+}
+
+.rightel {
+  float: right;
+}
+align-items: flex-end;
+*/
 nav {
   background: #181c2a;
   margin: 0px;
   padding: 0px;
   display: flex;
   justify-content: flex-end;
+  align-items: stretch;
+  overflow: auto;
+}
+
+.searchBar {
+  margin-left: 10px;
+  padding: 7px;
+  border-radius: 30px;
+  border: none;
+  width: 600px;
+  height: 20px;
+  font-size: 16px;
+  color: #f6e9a6;
+  text-align: flex-end;
+  background-color: #3a4466;
+  font-family: "Nunito";
+}
+/*
+a {
+  color: #f6e9a6;
+  text-decoration: none;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  background: #181c2a;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
   align-items: flex-end;
 }
 nav a {
@@ -87,3 +158,4 @@ nav {
 .main {
   display: flex;
 }
+*/
