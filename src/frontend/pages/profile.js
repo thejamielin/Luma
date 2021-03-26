@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/profile.module.css";
 import Image from 'next/image';
 import Link from "next/link";
-import dynamic from 'next/dynamic'
+import dynamic from 'next/dynamic';
 
 const Post = dynamic(() => import('../components/post'))
 
