@@ -1,10 +1,10 @@
 import Head from "next/head";
 import styles from "../styles/profile.module.css";
-import Image from 'next/image'
+import Image from 'next/image';
 import Link from "next/link";
-import React from 'react';
-import ReactDOM from "react-dom";
-import { Button } from '../components/Button'
+import dynamic from 'next/dynamic'
+
+const Post = dynamic(() => import('../components/post'))
 
 export default function Home() {
   return (
@@ -30,6 +30,12 @@ export default function Home() {
          <h3 className={styles.category}> contact information </h3>
          <p className={styles.sidebartext}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+      </div>
+
+      <div className={styles.content}>
+        <Post date={"March 24"} text={"This is my latest update"}/>
+        <Post date={"January 1"} text={"Happy new year!"}/>
+        <Post date={"October 11"} text={"This is my first post!"}/>
       </div>
     </>
   );
