@@ -2,6 +2,9 @@ import Head from "next/head";
 import styles from "../styles/profile.module.css";
 import Image from 'next/image'
 import Link from "next/link";
+import React from 'react';
+import ReactDOM from "react-dom";
+import { Button } from '../components/Button'
 
 export default function Home() {
   return (
@@ -15,8 +18,6 @@ export default function Home() {
 
       <div className={styles.biodrop}>
          <Image className={styles.pfp} src="/defaultpfp.jpg" width={200} height={200}/> 
-
-         {/* Add wave button here*/}
 
          <h3 className={styles.category}> biography </h3>
          <p className={styles.sidebartext}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
