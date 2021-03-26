@@ -35,6 +35,7 @@ footer {
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 /*
 
 nav {
@@ -87,6 +88,9 @@ a {
   width: 100%;
   margin: 0 auto;
 }
+=======
+/* FOR NAVBAR.JS */
+>>>>>>> ea510a5991323001dcbe83ba332b0b40261d18bb
 
 nav {
   background: #181c2a;
@@ -158,4 +162,20 @@ nav {
 .main {
   display: flex;
 }
+<<<<<<< HEAD
 */
+=======
+
+/* FOR POST.JS */
+.postbox {
+  background-color: #2c334c;
+  border-radius: 10px;
+  width: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding: 30px;
+  margin: 20px;
+}
+
+>>>>>>> ea510a5991323001dcbe83ba332b0b40261d18bb

@@ -14,8 +14,13 @@
     "react": "17.0.1",
     "react-burger-menu": "^3.0.6",
     "react-dom": "17.0.1",
+<<<<<<< HEAD
     "react-icons": "^4.2.0",
     "react-tabs": "^3.2.1"
 
+=======
+    "react-tabs": "^3.2.1",
+    "superagent": "^6.1.0"
+>>>>>>> ea510a5991323001dcbe83ba332b0b40261d18bb
   }
 }
