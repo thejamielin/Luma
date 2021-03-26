@@ -3,15 +3,25 @@ import styles from '../styles/Home.module.css';
 import Link from "next/link";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+<<<<<<< HEAD
 import Sidebar from '../components/sidebar';
 import React, { useState, useEffect} from 'react';
+=======
+import InfiniteSpace from '../components/InfiniteSpace';
+import homeData from '../components/homeData';
+>>>>>>> 0f2e098b84be6472fc497d853a1f7f4fd43e6a97
 // Tabs courtesy of: https://github.com/reactjs/react-tabs
+// Infinite scroll: https://www.digitalocean.com/community/tutorials/react-react-infinite-scroll
 
+<<<<<<< HEAD
 export default function Home() {
   const [selectedCheckboxes, setSelectedCheckboxes] = useState(new Set());
   const [genres, setGenres] = useState(["pop", "classical", "jazz", "R & B", "indie", "EDM"])
   const [instruments, setInstruments] = useState(["violin", "cello", "bass", "guitar", "piano", "voice", "flute", "clarinet"])
   
+=======
+export default function Home({ posts }) {
+>>>>>>> 0f2e098b84be6472fc497d853a1f7f4fd43e6a97
   return (
     <>
       <Head>
@@ -21,6 +31,7 @@ export default function Home() {
       <Sidebar selectedCheckboxes = {selectedCheckboxes}
             genres = {genres} instruments = {instruments}/>
       <div>
+<<<<<<< HEAD
       <Sidebar selectedCheckboxes={selectedCheckboxes} genres={genres} instruments={instruments}/>
       <Tabs 
       className={styles.tab}
@@ -40,17 +51,33 @@ export default function Home() {
             Musician Content
           </h2>
         </TabPanel>
+=======
+        <Tabs className={styles.tab} selectedTabClassName={styles.tabSelected}>
+          <TabList className={styles.tabList}>
+            <Tab>
+              Musicians
+            </Tab>
+            <Tab>Producers</Tab>
+            <Tab>Writers</Tab>
+          </TabList>
 
-        {/* Producers  */}
-        <TabPanel>
-          <h2>Producer Content</h2>
-        </TabPanel>
+          {/* Musicians */}
+          <TabPanel>
+            <h2>Musician Content</h2>
+            <InfiniteSpace />
+          </TabPanel>
+>>>>>>> 0f2e098b84be6472fc497d853a1f7f4fd43e6a97
 
-        {/* Writers */}
-        <TabPanel>
-          <h2>Writer content</h2>
-        </TabPanel>
-      </Tabs>
+          {/* Producers  */}
+          <TabPanel>
+            <h2>Producer Content</h2>
+          </TabPanel>
+
+          {/* Writers */}
+          <TabPanel>
+            <h2>Writer content</h2>
+          </TabPanel>
+        </Tabs>
       </div>
       <div>
         <Link href="/about">

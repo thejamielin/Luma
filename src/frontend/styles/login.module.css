@@ -151,8 +151,15 @@
 
 /* SIDE BY SIDE */
 .splitscreen {
+<<<<<<< HEAD
   display: flex;
   font-size: 120%;
+=======
+display:flex;
+font-size: 96%;
+justify-content: center;
+
+>>>>>>> 0f2e098b84be6472fc497d853a1f7f4fd43e6a97
 }
 .splitscreen .left {
   flex: 1;
@@ -184,6 +191,7 @@
 
 /* BACKGROUND BLOCKS */
 /* SIGN UP BOX */
+<<<<<<< HEAD
 .shape1 {
   text-align: center;
   background: linear-gradient(0deg, #2c334c, #2c334c) 0px 0 no-repeat,
@@ -210,6 +218,38 @@
   margin: 20px 20px;
   position: relative;
   border-radius: 40px;
+=======
+.shape1{
+    text-align:center;
+    background:
+    linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat,
+    linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat;
+    width:570px;
+    height: 704px;
+    line-height:48px;
+    padding:10px 40px;
+    color:white;
+    margin: 35px 40px;
+    position:relative;
+    border-radius: 36px;
+    box-shadow: 0px 0px 40px 5px #3d4564;
+}
+    /* LOGIN BOX */
+.shape2{
+    text-align:center;
+    background:
+    linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat,
+    linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat; 
+    width:570px;
+    height:704px;
+    line-height:48px;
+    padding:10px 40px;
+    color:white;
+    margin: 35px 40px;
+    position:relative;
+    border-radius: 36px;
+    box-shadow: 0px 0px 40px 5px #3d4564;
+>>>>>>> 0f2e098b84be6472fc497d853a1f7f4fd43e6a97
 }
 
 /* PICTURE SETTINGS */

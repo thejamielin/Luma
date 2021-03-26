@@ -8,11 +8,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
     "next": "^10.0.0",
     "react": "17.0.1",
     "react-burger-menu": "^3.0.6",
     "react-dom": "17.0.1",
+<<<<<<< HEAD
     "react-icons": "^4.2.0",
     "react-tabs": "^3.2.1"
+=======
+    "react-tabs": "^3.2.1",
+    "superagent": "^6.1.0"
+>>>>>>> 0f2e098b84be6472fc497d853a1f7f4fd43e6a97
   }
 }
