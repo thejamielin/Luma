@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import InfiniteSpace from '../components/InfiniteSpace';
-import homeData from '../components/homeData';
 // Tabs courtesy of: https://github.com/reactjs/react-tabs
 // Infinite scroll: https://www.digitalocean.com/community/tutorials/react-react-infinite-scroll
 
