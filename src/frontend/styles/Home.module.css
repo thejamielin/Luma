@@ -1,11 +1,11 @@
 .title {
-  color: #F6E9A6;
+  color: #f6e9a6;
   padding-bottom: 20px;
   text-align: center;
 }
 
 .text {
-  color: #F6E9A6;
+  color: #f6e9a6;
 }
 
 .btn {
@@ -13,26 +13,96 @@
   width: 150px;
   padding: 8px 0;
   margin: 20px auto;
-  background: #2C334C;
+  background: #2c334c;
   border-radius: 4px;
-  color: #F6E9A6;
+  color: #f6e9a6;
   text-align: center;
 }
 
 .tab {
-  margin-left: 30%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0 auto;
+  background: #232a48;
+}
+
+.tabSidebar {
+  margin-left: 13%;
+  margin-top: 0 auto;
 }
 
 .tabList {
-  background-color: green;
+  background-color: #181c2a;
   margin: 0px;
   padding-left: 0px;
-  padding-top: 0px;
+  margin-top: 10px;
   border-top-left-radius: 8px;
   font-weight: 500;
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: solid;
 }
 
 .tabSelected {
-  background-color: #232A48 !important;
+  background-color: #020205 !important;
   border-top-right-radius: 25px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.menuBars {
+  margin-top: -2rem;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  background: none;
+}
+.checkbox {
+  font-family: "Nunito";
+}
+
+.navMenu {
+  background-color: #181c2a;
+  width: 250px;
+  height: 100vh;
+  display: block;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+}
+
+.navMenuActive {
+  background-color: #181c2a;
+  width: 250px;
+  height: 100vh;
+  display: block;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbarToggle {
+  background-color: #181c2a;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.sideText {
+  color: #f6e9a6;
+  font-size: 18px;
+}
+
+.checkbox label.sideText:hover {
+  border-style: outset;
+}
+
+.head {
+  border: 1px solid #3a4466;
+  background-color: #3a4466;
+  border-radius: 5px;
+  border-width: medium;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  display: inline-block;
 }
