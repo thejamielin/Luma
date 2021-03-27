@@ -38,7 +38,7 @@ footer {
 nav {
   background: #181c2a;
   margin: 0px;
-  padding: 0px;
+  padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: stretch;
