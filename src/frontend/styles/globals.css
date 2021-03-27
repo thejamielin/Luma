@@ -76,7 +76,7 @@ nav {
 .btn {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
-  border-radius: 10x;
+  border-radius: 10px;
   cursor: pointer;
   transition: transform 0.3s ease;
   text-align: center;
