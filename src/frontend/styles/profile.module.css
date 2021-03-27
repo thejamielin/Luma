@@ -26,6 +26,10 @@
     align-items: center;
 }
 
+.button {
+    background-color: palegoldenrod;
+}
+
 .pfp {
     border-radius: 100px;
 }

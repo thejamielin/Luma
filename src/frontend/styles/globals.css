@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
 
 body {
-  background: #232A48;
-  color: #F6E9A6;
+  background: #232a48;
+  color: #f6e9a6;
   font-family: "Nunito";
   margin: 0px;
 }
 
 a {
-  color: #F6E9A6;
+  color: #f6e9a6;
   text-decoration: none;
 }
 
@@ -22,7 +22,7 @@ footer {
   text-align: center;
   padding: 30px 0;
   margin-top: 60px;
-  color: #F6E9A6;
+  color: #f6e9a6;
   border-top: 1px solid #eaeaea;
 }
 
@@ -30,26 +30,19 @@ footer {
   text-align: center;
 }
 
-.not-found a{
+.not-found a {
   color: #4979ff;
   text-decoration: underline;
 }
 
-/* FOR NAVBAR.JS */
-
 nav {
-  background-color: #181C2A;
-  padding: 10px;
-  overflow: auto;
-}
-
-.leftel{
-  float: left;
+  background: #181c2a;
+  margin: 0px;
+  padding: 0px;
   display: flex;
-}
-
-.rightel{
-  float:right;
+  justify-content: space-around;
+  align-items: stretch;
+  overflow: auto;
 }
 
 .searchBar {
@@ -60,9 +53,9 @@ nav {
   width: 600px;
   height: 20px;
   font-size: 16px;
-  color:#F6E9A6;
+  color: #f6e9a6;
   text-align: flex-end;
-  background-color: #3A4466;
+  background-color: #3a4466;
   font-family: "Nunito";
 }
 
@@ -78,3 +71,37 @@ nav {
   margin: 20px;
 }
 
+/*For Button*/
+
+.btn {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  border-radius: 10x;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+/*Button Colors and Styles */
+
+.btn--primary--solid {
+  background-color: palegoldenrod;
+  color: var(--white);
+  border: none;
+}
+
+/* Button Size */
+
+.btn--medium {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.btn--small {
+  padding: 15px 30 px;
+  font-size: 20px;
+}

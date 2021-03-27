@@ -2,10 +2,12 @@ import Head from "next/head";
 import styles from "../styles/profile.module.css";
 import Image from 'next/image';
 import Link from "next/link";
-import dynamic from 'next/dynamic'
+import dynamic from 'next/dynamic';
+import { Button } from '../components/Button'
+import { scryRenderedComponentsWithType } from "react-dom/test-utils";
+/* import components from '../components/button.module.css' */
 
 const Post = dynamic(() => import('../components/post'))
-
 
 export default function Home() {
   return (
@@ -16,11 +18,12 @@ export default function Home() {
       </Head>
       <div className={styles.banner} />
       <div className={styles.profilebar} />
-
       <div className={styles.biodrop}>
          <Image className={styles.pfp} src="/defaultpfp.jpg" width={200} height={200}/> 
 
-         {/* Add wave button here*/}
+      <div className="btn">
+        <Button>Wave</Button>
+      </div>
 
          <h3 className={styles.category}> biography </h3>
          <p className={styles.sidebartext}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

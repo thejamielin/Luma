@@ -15,10 +15,15 @@ export default function Login() {
                   </h1>
                   <form>
                       <input className={styles.fname} placeholder="  First Name"></input> 
+                      <br></br>
                       <input className={styles.lname} placeholder="  Last Name"></input>
+                      <br></br>
                       <input className={styles.username} placeholder="  Username"></input>
+                      <br></br>
                       <input className={styles.email} placeholder="  Email"></input>
+                      <br></br>
                       <input className={styles.password} placeholder="  Password"></input>
+                      <br></br>
                       <input type="checkbox" id="stayin" className={styles.stayinbutton}></input> 
                       <label for="stayin" className={styles.stayintext}> Stay signed in? </label>
                       <br></br>

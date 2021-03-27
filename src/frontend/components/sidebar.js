@@ -4,12 +4,17 @@ import Checkbox from './Checkbox';
 import Link from "next/link";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+<<<<<<< HEAD
 import { slide as Menu } from 'react-burger-menu';
+=======
+// if errors: npm install react-icons
+>>>>>>> cd3a7c3e9af904915a829f7d8487b9cf8e716cab
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import React, { useState } from'react';
 // Tabs courtesy of: https://github.com/reactjs/react-tabs
 
+<<<<<<< HEAD
 const Sidebar = ({selectedCheckboxes, genres, instruments}) => { 
     const [sidebar, setSidebar] = useState(false);
 
@@ -17,6 +22,11 @@ const Sidebar = ({selectedCheckboxes, genres, instruments}) => {
         setSidebar(!sidebar);
     }
 
+=======
+const Sidebar = ({selectedCheckboxes, genres, instruments, sidebar, showSidebar}) => { 
+    
+    
+>>>>>>> cd3a7c3e9af904915a829f7d8487b9cf8e716cab
     // removes or adds a toggled Checkbox from the selectedCheckboxes state
     const toggleCheckbox = (label) => {
         if (selectedCheckboxes.has(label)) {
@@ -56,7 +66,10 @@ const Sidebar = ({selectedCheckboxes, genres, instruments}) => {
     
     return (
         <>
+<<<<<<< HEAD
         {/*<div className = {styles.sidebar}> */}
+=======
+>>>>>>> cd3a7c3e9af904915a829f7d8487b9cf8e716cab
         <div className = {styles.menuBars}>
             <FaIcons.FaBars onClick = {showSidebar}/>
         </div>
@@ -72,7 +85,10 @@ const Sidebar = ({selectedCheckboxes, genres, instruments}) => {
                 </form>
             </ul>
         </nav>
+<<<<<<< HEAD
         {/*</div> */}
+=======
+>>>>>>> cd3a7c3e9af904915a829f7d8487b9cf8e716cab
         </>
     );
 }
