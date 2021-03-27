@@ -38,7 +38,7 @@ footer {
 nav {
   background: #181c2a;
   margin: 0px;
-  padding: 0px;
+  padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: stretch;
@@ -76,7 +76,7 @@ nav {
 .btn {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
-  border-radius: 10x;
+  border-radius: 10px;
   cursor: pointer;
   transition: transform 0.3s ease;
   text-align: center;
@@ -90,14 +90,14 @@ nav {
 
 .btn--primary--solid {
   background-color: palegoldenrod;
-  color: var(--white);
+  color: #2c334c;
   border: none;
 }
 
 /* Button Size */
 
 .btn--medium {
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-size: 18px;
 }
 
