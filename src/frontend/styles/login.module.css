@@ -17,8 +17,8 @@ padding: 0%
 /* ROUNDED TEXT BOXES */
 .fname {
 border-radius: 24px;
-padding: 10px; 
-width: 480px;
+padding: 1.5%; 
+width: 90%;
 height: 40px;  
 background-color: #3A4466;
 color:#F6E9A6;
@@ -28,14 +28,14 @@ border-top-style: hidden;
 border-right-style: hidden;
 border-left-style: hidden;
 border-bottom-style: hidden;
-margin-bottom: 16px;
+margin-bottom: 4%;
 }
 .lname {
 border-radius: 24px;
-padding: 10px; 
-width: 480px;
-height: 40px; 
-background-color:#3A4466;
+padding: 1.5%; 
+width: 90%;
+height: 40px;  
+background-color: #3A4466;
 color:#F6E9A6;
 font-family:verdana;
 font-size: 96%;
@@ -43,14 +43,14 @@ border-top-style: hidden;
 border-right-style: hidden;
 border-left-style: hidden;
 border-bottom-style: hidden;
-margin-bottom: 16px;
+margin-bottom: 4%;
 }
 .username {
 border-radius: 24px;
-padding: 10px; 
-width: 480px;
-height: 40px; 
-background-color:#3A4466;
+padding: 1.5%; 
+width: 90%;
+height: 40px;  
+background-color: #3A4466;
 color:#F6E9A6;
 font-family:verdana;
 font-size: 96%;
@@ -58,14 +58,14 @@ border-top-style: hidden;
 border-right-style: hidden;
 border-left-style: hidden;
 border-bottom-style: hidden;
-margin-bottom: 16px;
+margin-bottom: 4%;
 }
 .email {
 border-radius: 24px;
-padding: 10px; 
-width: 480px;
+padding: 1.5%; 
+width: 90%;
 height: 40px;  
-background-color:#3A4466;
+background-color: #3A4466;
 color:#F6E9A6;
 font-family:verdana;
 font-size: 96%;
@@ -73,14 +73,14 @@ border-top-style: hidden;
 border-right-style: hidden;
 border-left-style: hidden;
 border-bottom-style: hidden;
-margin-bottom: 16px;
+margin-bottom: 4%;
 }
 .password {
 border-radius: 24px;
-padding: 10px; 
-width: 480px;
-height: 40px; 
-background-color:#3A4466;
+padding: 1.5%; 
+width: 90%;
+height: 40px;  
+background-color: #3A4466;
 color:#F6E9A6;
 font-family:verdana;
 font-size: 96%;
@@ -88,14 +88,14 @@ border-top-style: hidden;
 border-right-style: hidden;
 border-left-style: hidden;
 border-bottom-style: hidden;
-margin-bottom: 16px;
+margin-bottom: 4%;
 }
 
 /* BUTTON SETTINGS */
 .signup {
 border-radius: 24px;
 padding: 8px; 
-width: 144px;
+width: 25%;
 height: 48px;  
 background-color: #595f71;
 color:#F6E9A6;
@@ -110,7 +110,7 @@ border-bottom-style: hidden;
 .login {
 border-radius: 24px;
 padding: 8px; 
-width: 136px;
+width: 25%;
 height: 48px;  
 background-color: #595f71;
 color:#F6E9A6;
@@ -126,16 +126,15 @@ border-bottom-style: hidden;
 /* STAY IN BUTTON */
 .stayinbutton {
 transform: scale(1.36);
-margin-left: 200px;
+margin-left: 28%;
 }
 .body {
 text-align: center;
-margin-top: 80px;
 margin: 0;
 }
 .stayintext {
 color:#F6E9A6;
-margin-right: 160px;
+margin-right: 28%;
 }
         
 /* FORGOT PASSWORD */
@@ -189,7 +188,7 @@ font-size: 48px;
     background:
     linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat,
     linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat;
-    width:570px;
+    width: 35%;
     height: 704px;
     line-height:48px;
     padding:10px 40px;
@@ -204,9 +203,9 @@ font-size: 48px;
     text-align:center;
     background:
     linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat,
-    linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat; 
-    width:570px;
-    height:704px;
+    linear-gradient(0deg , #2C334C,#2C334C) 0px 0 no-repeat;
+    width: 35%;
+    height: 704px;
     line-height:48px;
     padding:10px 40px;
     color:white;
@@ -218,8 +217,8 @@ font-size: 48px;
 
 /* PICTURE SETTINGS */
 .signinwithpics{
-    width: 81.6px;
-    height: 81.6px;
+    width: 15%;
+    height: 15%;
 }
 
 
