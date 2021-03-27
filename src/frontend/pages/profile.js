@@ -4,7 +4,8 @@ import Image from 'next/image';
 import Link from "next/link";
 import dynamic from 'next/dynamic';
 import { Button } from '../components/Button'
-/*import components from '../components/button.module.css'*/
+import { scryRenderedComponentsWithType } from "react-dom/test-utils";
+import components from '../components/button.module.css'
 
 const Post = dynamic(() => import('../components/post'))
 
@@ -21,7 +22,7 @@ export default function Home() {
       <div className={styles.biodrop}>
          <Image className={styles.pfp} src="/defaultpfp.jpg" width={200} height={200}/> 
 
-      <div className="Button">
+      <div className={components.btn}>
         <Button>Wave</Button>
       </div>
 
