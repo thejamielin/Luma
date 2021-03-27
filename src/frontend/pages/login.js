@@ -3,9 +3,10 @@ import styles from "../styles/login.module.css";
 export default function Login() {
   return (
     <>
-    <div className={styles.topnav}>
-      <a class="active" href="/home"><b>Lum&lambda;</b></a>
-    </div>
+    {/* actual login navbar below -- diferent bc login page shoudlnt have same navbar as other pages since not logged in yet but dont know how to change it lol */}
+    {/* <div className={styles.topnav}>
+      <a class="active" href="/"><b>Lum&lambda;</b></a>
+    </div> */}
       <div className={styles.splitscreen}>
           <div className={styles.shape1}>
               <div className={styles.left}>
@@ -20,6 +21,7 @@ export default function Login() {
                       <input className={styles.password} placeholder="  Password"></input>
                       <input type="checkbox" id="stayin" className={styles.stayinbutton}></input> 
                       <label for="stayin" className={styles.stayintext}> Stay signed in? </label>
+                      <br></br>
                       <input type="button" className={styles.signup} onClick="alert('Signed Up!')" value="Sign Up"></input>
                   </form>
               </div>
@@ -32,6 +34,7 @@ export default function Login() {
                   <form>
                       <input className={styles.username} placeholder="  Username"></input> 
                       <input className={styles.password} placeholder="  Password"></input> 
+                      <br></br>
                       <a className={styles.forgotpass} href="https://www.google.com"> Forgot password? </a>
                       <br></br>
                       <input type="button" className={styles.login} onClick="alert('Logged In!')" value="Login"></input>
