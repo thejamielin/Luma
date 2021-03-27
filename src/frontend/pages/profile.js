@@ -3,6 +3,7 @@ import styles from "../styles/profile.module.css";
 import Image from 'next/image';
 import Link from "next/link";
 import dynamic from 'next/dynamic';
+import { Button } from '../components/Button'
 
 const Post = dynamic(() => import('../components/post'))
 
@@ -18,6 +19,10 @@ export default function Home() {
 
       <div className={styles.biodrop}>
          <Image className={styles.pfp} src="/defaultpfp.jpg" width={200} height={200}/> 
+
+      <div className="App">
+        <Button>Wave</Button>
+      </div>
 
          <h3 className={styles.category}> biography </h3>
          <p className={styles.sidebartext}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
