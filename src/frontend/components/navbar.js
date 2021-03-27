@@ -3,12 +3,11 @@ import Image from 'next/image'
 import React, { useState } from 'react';
 // Search bar courtesy of https://github.com/mikeyhao/anilist-nextjs
 
+
 const Navbar = () => {
 
     return ( 
         <nav>
-        <div className="leftel">
-        
         <Link href="/">
                 <a><Image src="/logo.png" width={78} height={35}/></a>
         </Link>
@@ -16,9 +15,6 @@ const Navbar = () => {
             <input 
                 className="searchBar"
                 placeholder="Search here..."/>
-
-        </div>
-        <div class="rightel">
             <a>
                 <Boop scale={1.1} timing={200}>
                 <Link href="/connections">
@@ -38,7 +34,6 @@ const Navbar = () => {
                 </Link>
                 </Boop>
             </a>
-        </div>
         </nav>
      );
 }

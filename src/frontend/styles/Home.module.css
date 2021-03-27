@@ -20,35 +20,35 @@
 }
 
 .tab {
-  margin-left: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0 auto;
+  background: #232a48;
+}
+
+.tabSidebar {
+  margin-left: 13%;
   margin-top: 0 auto;
 }
 
 .tabList {
-  background-color: green;
+  background-color: #181c2a;
   margin: 0px;
   padding-left: 0px;
-  padding-top: 0px;
+  margin-top: 10px;
   border-top-left-radius: 8px;
   font-weight: 500;
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: solid;
 }
 
 .tabSelected {
-  background-color: #232a48 !important;
+  background-color: #020205 !important;
   border-top-right-radius: 25px;
+  border-radius: 10px 10px 0px 0px;
 }
 
-/*
-.sidebar {
-  background-color: #d43f3f;
-  height: auto;
-  display: block;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: 0;
-  padding: 0;
-}
-*/
 .menuBars {
   margin-top: -2rem;
   margin-left: 2rem;
@@ -60,7 +60,7 @@
 }
 
 .navMenu {
-  background-color: #060b26;
+  background-color: #181c2a;
   width: 250px;
   height: 100vh;
   display: block;
@@ -68,11 +68,10 @@
   position: fixed;
   top: 0;
   left: -100%;
-  transition: 850ms;
 }
 
 .navMenuActive {
-  background-color: #060b26;
+  background-color: #181c2a;
   width: 250px;
   height: 100vh;
   display: block;
@@ -80,16 +79,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  transition: 350ms;
 }
 
 .navbarToggle {
-  background-color: #060b26;
-  width: 100%;
-  height: fit-content;
-  display: block;
-  justify-content: start;
-  align-items: center;
+  background-color: #181c2a;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
 }
 
 .sideText {

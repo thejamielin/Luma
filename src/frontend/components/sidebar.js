@@ -4,20 +4,15 @@ import Checkbox from './Checkbox';
 import Link from "next/link";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import { slide as Menu } from 'react-burger-menu';
+// if errors: npm install react-icons
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import React, { useState } from'react';
-
 // Tabs courtesy of: https://github.com/reactjs/react-tabs
 
-const Sidebar = ({selectedCheckboxes, genres, instruments}) => { 
-    const [sidebar, setSidebar] = useState(false);
-
-    const showSidebar = () => {
-        setSidebar(!sidebar);
-    }
-
+const Sidebar = ({selectedCheckboxes, genres, instruments, sidebar, showSidebar}) => { 
+    
+    
     // removes or adds a toggled Checkbox from the selectedCheckboxes state
     const toggleCheckbox = (label) => {
         if (selectedCheckboxes.has(label)) {
@@ -57,7 +52,6 @@ const Sidebar = ({selectedCheckboxes, genres, instruments}) => {
     
     return (
         <>
-        {/*<div className = {styles.sidebar}> */}
         <div className = {styles.menuBars}>
             <FaIcons.FaBars onClick = {showSidebar}/>
         </div>
@@ -73,7 +67,6 @@ const Sidebar = ({selectedCheckboxes, genres, instruments}) => {
                 </form>
             </ul>
         </nav>
-        {/*</div> */}
         </>
     );
 }
