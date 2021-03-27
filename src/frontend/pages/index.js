@@ -6,7 +6,6 @@ import 'react-tabs/style/react-tabs.css';
 import Sidebar from '../components/sidebar';
 import React, { useState, useEffect} from 'react';
 import InfiniteSpace from '../components/InfiniteSpace';
-import homeData from '../components/homeData';
 // Tabs courtesy of: https://github.com/reactjs/react-tabs
 // Infinite scroll: https://www.digitalocean.com/community/tutorials/react-react-infinite-scroll
 
@@ -40,18 +39,17 @@ export default function Home({ posts }) {
 
           {/* Musicians */}
           <TabPanel>
-            <h2>Musician Content</h2>
             <InfiniteSpace />
           </TabPanel>
 
           {/* Producers  */}
           <TabPanel>
-            <h2>Producer Content</h2>
+            <InfiniteSpace />
           </TabPanel>
 
           {/* Writers */}
           <TabPanel>
-            <h2>Writer content</h2>
+            <InfiniteSpace />
           </TabPanel>
         </Tabs>
       </div>
