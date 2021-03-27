@@ -70,3 +70,38 @@ nav {
   padding: 30px;
   margin: 20px;
 }
+
+/*For Button*/
+
+.btn {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  border-radius: 10x;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+/*Button Colors and Styles */
+
+.btn--primary--solid {
+  background-color: palegoldenrod;
+  color: var(--white);
+  border: none;
+}
+
+/* Button Size */
+
+.btn--medium {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.btn--small {
+  padding: 15px 30 px;
+  font-size: 20px;
+}
