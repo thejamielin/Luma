@@ -5,10 +5,11 @@
     border-radius: 10x;
     cursor: pointer;
     transition: transform 0.3s ease;
+    text-align: center;
 }
 
 .btn:hover {
-    transform: translate(-3px);
+    transform: translateY(-3px);
 }
 
 /*Button Colors and Styles */
