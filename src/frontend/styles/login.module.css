@@ -1,17 +1,17 @@
 /* SIGNUP/LOGIN HEADERS */
 .h1 {
-color:#F6E9A6;
-font-family: verdana;
-font-size: 360%;
-padding: 0%
+  color: #f6e9a6;
+  font-family: verdana;
+  font-size: 450%;
+  padding: 0%;
 }
 
 /* SIGN IN WITH HEADERS */
 .h2 {
-color:#F6E9A6;
-font-family: verdana;
-font-size: 200%;
-padding: 0%
+  color: #f6e9a6;
+  font-family: verdana;
+  font-size: 250%;
+  padding: 0%;
 }
 
 /* ROUNDED TEXT BOXES */
@@ -74,7 +74,9 @@ border-right-style: hidden;
 border-left-style: hidden;
 border-bottom-style: hidden;
 margin-bottom: 4%;
+
 }
+
 .password {
 border-radius: 24px;
 padding: 1.5%; 
@@ -136,12 +138,12 @@ margin: 0;
 color:#F6E9A6;
 margin-right: 28%;
 }
-        
+
 /* FORGOT PASSWORD */
 .forgotpass {
-color:#F6E9A6;
-font-family:verdana;
-font-size: 96%;
+  color: #f6e9a6;
+  font-family: verdana;
+  font-size: 120%;
 }
 
 /* SIDE BY SIDE */
@@ -153,34 +155,33 @@ height:77%;
 }
 
 .splitscreen .left {
-flex: 1;
+  flex: 1;
 }
 .splitscreen .right {
-flex: 1;
+  flex: 1;
 }
 
 /* BODY SETTINGS */
 .body {
-background-color:#232A48;
-padding: 0px 0;
+  background-color: #232a48;
+  padding: 0px 0;
 }
-        
+
 /* TOP BAR SETTINGS */
 .topnav {
-overflow: hidden;
-background-color: #181C2A;
-text-align: center;
+  overflow: hidden;
+  background-color: #181c2a;
 }
 
 .topnav a {
-float: center;
-color: #97883C;
-text-align: center;
-padding: 50px 50px;
-text-decoration: none;
-font-size: 48px;
+  float: center;
+  color: #97883c;
+  text-align: center;
+  padding: 50px 50px;
+  text-decoration: none;
+  font-size: 60px;
 }
-        
+
 /* BACKGROUND BLOCKS */
 /* SIGN UP BOX */
 .shape1{

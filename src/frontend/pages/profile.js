@@ -1,7 +1,13 @@
 import Head from "next/head";
 import styles from "../styles/profile.module.css";
-import Image from 'next/image'
+import Image from 'next/image';
 import Link from "next/link";
+import dynamic from 'next/dynamic';
+import { Button } from '../components/Button'
+import { scryRenderedComponentsWithType } from "react-dom/test-utils";
+/* import components from '../components/button.module.css' */
+
+const Post = dynamic(() => import('../components/post'))
 
 export default function Home() {
   return (
@@ -12,11 +18,12 @@ export default function Home() {
       </Head>
       <div className={styles.banner} />
       <div className={styles.profilebar} />
-
       <div className={styles.biodrop}>
          <Image className={styles.pfp} src="/defaultpfp.jpg" width={200} height={200}/> 
 
-         {/* Add wave button here*/}
+      <h3 className="btn">
+        <Button>Wave</Button>
+      </h3>
 
          <h3 className={styles.category}> biography </h3>
          <p className={styles.sidebartext}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -29,6 +36,12 @@ export default function Home() {
          <h3 className={styles.category}> contact information </h3>
          <p className={styles.sidebartext}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+      </div>
+
+      <div className={styles.content}>
+        <Post date={"March 24"} text={"This is my latest update"}/>
+        <Post date={"January 1"} text={"Happy new year!"}/>
+        <Post date={"October 11"} text={"This is my first post!"}/>
       </div>
     </>
   );
