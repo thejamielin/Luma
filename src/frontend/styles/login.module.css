@@ -151,10 +151,12 @@
 
 /* SIDE BY SIDE */
 .splitscreen {
-  display: flex;
-  font-size: 96%;
-  justify-content: center;
+display:flex;
+font-size: 96%;
+justify-content: center;
+height:77%;
 }
+
 .splitscreen .left {
   flex: 1;
 }
@@ -220,3 +222,190 @@
   width: 102px;
   height: 102px;
 }
+
+
+/* 
+
+/* SIGNUP/LOGIN HEADERS 
+.h1 {
+    color:#F6E9A6;
+    font-family: verdana;
+    font-size: 270%;
+    padding: 0%
+    }
+    
+    /* SIGN IN WITH HEADERS 
+    .h2 {
+    color:#F6E9A6;
+    font-family: verdana;
+    font-size: 150%;
+    padding: 0%
+    }
+    
+    /* ROUNDED TEXT BOXES 
+    .fname {
+    border-radius: 18px;
+    padding: 10px; 
+    width: 360px;
+    height: 30px;  
+    background-color: #3A4466;
+    color:#F6E9A6;
+    font-family:verdana;
+    font-size: 72%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    margin-bottom: 12px;
+    }
+    .lname {
+    border-radius: 18px;
+    padding: 10px; 
+    width: 360px;
+    height: 30px;  
+    background-color: #3A4466;
+    color:#F6E9A6;
+    font-family:verdana;
+    font-size: 72%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    margin-bottom: 12px;
+    }
+    .username {
+    border-radius: 18px;
+    padding: 10px; 
+    width: 360px;
+    height: 30px;  
+    background-color: #3A4466;
+    color:#F6E9A6;
+    font-family:verdana;
+    font-size: 72%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    margin-bottom: 12px;
+    }
+    .email {
+    border-radius: 18px;
+    padding: 10px; 
+    width: 360px;
+    height: 30px;  
+    background-color: #3A4466;
+    color:#F6E9A6;
+    font-family:verdana;
+    font-size: 72%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    margin-bottom: 12px;
+    }
+    .password {
+    border-radius: 18px;
+    padding: 10px; 
+    width: 360px;
+    height: 30px;  
+    background-color: #3A4466;
+    color:#F6E9A6;
+    font-family:verdana;
+    font-size: 72%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    margin-bottom: 12px;
+    }
+    
+    /* BUTTON SETTINGS 
+    .signup {
+    border-radius: 18px;
+    padding: 8px; 
+    width: 108px;
+    height: 36px;  
+    background-color: #595f71;
+    color:#F6E9A6;
+    font-family:verdana;
+    font-size: 72%;
+    text-align:center;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    }
+    .login {
+    border-radius: 18px;
+    padding: 8px; 
+    width: 108px;
+    height: 36px;  
+    background-color: #595f71;
+    color:#F6E9A6;
+    font-family:verdana;
+    font-size: 72%;
+    text-align:center;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    }
+    
+    /* STAY IN BUTTON 
+    .stayinbutton {
+    transform: scale(1.02);
+    margin-left: 150px;
+    }
+    .body {
+    text-align: center;
+    margin-top: 86px;
+    margin: 0;
+    }
+    .stayintext {
+    color:#F6E9A6;
+    margin-right: 120px;
+    }
+            
+    /* FORGOT PASSWORD 
+    .forgotpass {
+    color:#F6E9A6;
+    font-family:verdana;
+    font-size: 72%;
+    }
+    
+    /* SIDE BY SIDE 
+    .splitscreen {
+    display:flex;
+    font-size: 72%;
+    justify-content: center;
+    
+    }
+    .splitscreen .left {
+    flex: 1;
+    }
+    .splitscreen .right {
+    flex: 1;
+    }
+    
+    /* BODY SETTINGS 
+    .body {
+    background-color:#232A48;
+    padding: 0px 0;
+    }
+            
+    /* TOP BAR SETTINGS 
+    .topnav {
+    overflow: hidden;
+    background-color: #181C2A;
+    text-align: center;
+    }
+    
+    .topnav a {
+    float: center;
+    color: #97883C;
+    text-align: center;
+    padding: 37.5px 37.5px;
+    text-decoration: none;
+    font-size: 36px;
+    }
+             */
