@@ -32,6 +32,7 @@ class InfiniteSpace extends React.Component {
           }, 100);
     }
   }
+  // Hivemind coding
 
   componentDidMount() {
     this.loadApods();
@@ -86,9 +87,6 @@ class InfiniteSpace extends React.Component {
       <div style={{
         padding: 10
       }}>
-        <h1>Infinite Space!</h1>
-        <p>Scroll down to load more!!</p>
-
         {apods.map(apod => (
           <React.Fragment key={apod.date}>
             <hr />
