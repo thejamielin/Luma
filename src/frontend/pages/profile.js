@@ -21,9 +21,9 @@ export default function Home() {
       <div className={styles.biodrop}>
          <Image className={styles.pfp} src="/defaultpfp.jpg" width={200} height={200}/> 
 
-      <div className="btn">
+      <h3 className="btn">
         <Button>Wave</Button>
-      </div>
+      </h3>
 
          <h3 className={styles.category}> biography </h3>
          <p className={styles.sidebartext}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
