@@ -26,9 +26,41 @@
   background: #232a48;
 }
 
-.tabSidebar {
-  margin-left: 15%;
-  margin-top: 0 auto;
+@media screen and (max-width: 1400px) {
+  .tabSidebar {
+    margin-left: 30%;
+    margin-top: 0 auto;
+  }
+  .menuBars {
+    margin-top: -2.5%;
+    margin-left: 3%;
+    font-size: 1.5rem;
+    background: none;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .tabSidebar {
+    margin-left: 20%;
+    margin-top: 0 auto;
+  }
+  .menuBars {
+    margin-top: -3%;
+    margin-left: 3%;
+    font-size: 1.5rem;
+    background: none;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .tabSidebar {
+    margin-left: 15%;
+    margin-top: 0 auto;
+  }
+  .menuBars {
+    margin-top: -2%;
+    margin-left: 3%;
+    font-size: 1.5rem;
+    background: none;
+  }
 }
 
 .tabList {
@@ -48,13 +80,14 @@
   border-top-right-radius: 25px;
   border-radius: 10px 10px 0px 0px;
 }
-
+/*
 .menuBars {
-  margin-top: -40px;
-  margin-left: 20px;
+  margin-top: -2%;
+  margin-left: 3%;
   font-size: 1.5rem;
   background: none;
 }
+*/
 .checkbox {
   font-family: "Nunito";
 }
