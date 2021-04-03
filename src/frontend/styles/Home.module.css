@@ -25,10 +25,59 @@
   margin-top: 0 auto;
   background: #232a48;
 }
+@media screen and (max-width: 1400px) {
+  .tabSidebar {
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-top: 0 auto;
+  }
+  .menuBars {
+    margin-top: -40px;
+    margin-left: 3%;
+    font-size: 1.5rem;
+    background: none;
+  }
+}
 
-.tabSidebar {
-  margin-left: 15%;
-  margin-top: 0 auto;
+@media screen and (min-width: 1400px) {
+  .tabSidebar {
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 0 auto;
+  }
+  .menuBars {
+    margin-top: -40px;
+    margin-left: 3%;
+    font-size: 1.5rem;
+    background: none;
+  }
+}
+@media screen and (min-width: 1600px) {
+  /* shows up on bottom of nav sometimes */
+  .tabSidebar {
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 0 auto;
+  }
+  .menuBars {
+    margin-top: -50px;
+    margin-left: 3%;
+    font-size: 1.5rem;
+    background: none;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .tabSidebar {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0 auto;
+  }
+  .menuBars {
+    margin-top: -2%;
+    margin-left: 3%;
+    font-size: 1.5rem;
+    background: none;
+  }
 }
 
 .tabList {
@@ -48,13 +97,14 @@
   border-top-right-radius: 25px;
   border-radius: 10px 10px 0px 0px;
 }
-
+/*
 .menuBars {
-  margin-top: -40px;
-  margin-left: 20px;
+  margin-top: -2%;
+  margin-left: 3%;
   font-size: 1.5rem;
   background: none;
 }
+*/
 .checkbox {
   font-family: "Nunito";
 }
