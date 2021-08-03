@@ -1,0 +1,94 @@
+USE testschema;
+CREATE TABLE lumaUser
+(
+	userID int PRIMARY KEY AUTO_INCREMENT,
+    about VARCHAR(300),
+    firstName VARCHAR(100),
+    lastName VARCHAR(100),
+    location VARCHAR(100),
+    phoneNumber VARCHAR(20),
+    email VARCHAR(80),
+    age int
+);
+
+CREATE TABLE roleType
+(
+	roleTypeName VARCHAR(80) PRIMARY KEY -- users don't input, we have set roleTypes to import
+);
+
+CREATE TABLE userRoleType
+(
+	userID int,
+    roleTypeName VARCHAR(80),
+    yearsOfExperience double,
+    CONSTRAINT userRoleType_userID_fk FOREIGN KEY (userID)
+    REFERENCES lumaUser(userID) ON UPDATE CASCADE ON DELETE CASCADE,
+    CONSTRAINT userRoleType_roleTypeName_fk FOREIGN KEY (roleTypeName)
+    REFERENCES roleType(roleTypeName) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE genre
+(
+	genreName VARCHAR(80) PRIMARY KEY, -- users don't input, we have set roleTypes to import
+    genreDescription VARCHAR(300)
+);
+
+CREATE TABLE userGenre
+( 
+	userID int,
+    genreName VARCHAR(80),
+    CONSTRAINT userGenre_userID_fk FOREIGN KEY (userID)
+    REFERENCES lumaUser(userID) ON UPDATE CASCADE ON DELETE CASCADE,
+    CONSTRAINT userGenre_genreName_fk FOREIGN KEY (genreName)
+    REFERENCES genre(genreName) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE post
+( 
+	postID int PRIMARY KEY AUTO_INCREMENT,
+    postDateTime datetime NOT NULL,
+    postTypeName VARCHAR(80),
+    numberOfViews int, -- needs procedure to increment the number of views
+    postTitle VARCHAR(80),
+    postDescription VARCHAR(400),
+    userID int,
+    CONSTRAINT post_postTypeName_fk FOREIGN KEY (postTypeName)
+    REFERENCES postType(postTypeName) ON UPDATE CASCADE ON DELETE RESTRICT,
+    CONSTRAINT post_userID_fk FOREIGN KEY (userID)
+    REFERENCES lumaUser(userID) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE postType
+( 
+	postTypeName VARCHAR(80) PRIMARY KEY
+);
+
+CREATE TABLE tag
+(
+	tagName VARCHAR(80) PRIMARY KEY
+);
+
+CREATE TABLE postTag
+( 
+	postID int,
+    tagName VARCHAR(80),
+    CONSTRAINT postTag_postID_fk FOREIGN KEY (postID)
+    REFERENCES post(postID) ON UPDATE CASCADE ON DELETE CASCADE,
+    CONSTRAINT postTag_tagName_fk FOREIGN KEY (tagName)
+    REFERENCES tag(tagName) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE comment
+( 
+	commentID int PRIMARY KEY AUTO_INCREMENT,
+    content VARCHAR(300),
+    commentDateTime datetime NOT NULL,
+    postID int,
+    CONSTRAINT comment_postID_fk FOREIGN KEY (postID)
+    REFERENCES post(postID) ON UPDATE CASCADE ON DELETE CASCADE
+);
+    
+    
+    
+    
+    
